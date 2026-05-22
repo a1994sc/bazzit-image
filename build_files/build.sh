@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y nix-core nix-daemon nix-legacy busybox util-linux pinentry-curses pinentry-qt
+dnf5 install -y nix-core nix-daemon nix-legacy busybox util-linux pinentry-curses pinentry-qt gnupg2-scdaemon
 
 # Use a COPR Example:
 #
