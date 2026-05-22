@@ -20,7 +20,4 @@ dnf5 -y copr disable @go-sig/golang-rawhide
 
 #### Example for enabling a System Unit File
 
-systemctl enable podman.socket
-systemctl enable nix-daemon.socket
-systemctl enable nix-daemon.service
-systemctl enable pcscd
+systemctl enable podman.socket nix-daemon.socket nix-daemon.service pcscd.service
